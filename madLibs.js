@@ -29,7 +29,7 @@ window.onload = function() {
       var myMsgAuthor = document.getElementById("myMsgAuthor");
         myMsgAuthor.innerHTML = "By " + userFirstName + " " + userLastName;
       var myMsgArticle = document.getElementById("myMsgArticle");
-        myMsgArticle.innerHTML = "<em>" + userTitleAdjective + " " + userTitleNounA + " Attacks " + userTitleNounB + "</em><br><hr><br> Yesterday, at approximently " + userTime + " a " + userTitleNounB + " was " + userVerb + " in " + userPlace + ". Without warning, a " + userTitleNounA + " came out of a " + userNounA + " with a " + userNounB + " and attacked the " + userTitleNounB + ". The " + userTitleNounB + " currently recovering in the " + userNounC + ". The " + userTitleNounB + " is expected to make a full recovery. " + userNameA + ", a close friend, says that the " + userTitleNounB + " is " + userEmotion + " and is happily eating a " + userFood + ". (Continue on page " + userNumber + ".)"; 
+        myMsgArticle.innerHTML = "<em>" + userTitleAdjective + " " + userTitleNounA + " Attacks " + userTitleNounB + "</em><br><hr><br> Yesterday, at approximently " + userTime + " a " + userTitleNounB + " was " + userVerb + " in " + userPlace + ". Without warning, a " + userTitleNounA + " came out of a " + userNounA + " with a " + userNounB + " and attacked the " + userTitleNounB + ". The " + userTitleNounB + " currently is recovering in the " + userNounC + ". The " + userTitleNounB + " is expected to make a full recovery. " + userNameA + ", a close friend, says that the " + userTitleNounB + " is " + userEmotion + " and is happily eating a " + userFood + ". (Continue on page " + userNumber + ".)"; 
     }
 
       myMsgTitle.className = "show";
