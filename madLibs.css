@@ -86,3 +86,30 @@ p {
     padding: 50px;
 
 }
+
+footer {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    text-align: center;
+    color:black;
+}
+
+body a:link {
+	text-decoration:none;
+	color:black;
+	}
+
+body a:visited {
+	color: black;
+}
+
+body a:hover {
+	color:orange;
+	text-decoration:underline;
+}
+
+h1, h4, h6{
+    position: absolute;
+    visibility: hidden;
+}
